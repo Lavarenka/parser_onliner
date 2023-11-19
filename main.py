@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import time
+import lxml
 
 start_time = time.time()
 with open('res.csv', 'w', encoding='utf-8-sig', newline='') as file:
